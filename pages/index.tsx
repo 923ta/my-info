@@ -11,7 +11,24 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="m-0 min-h-screen">Hello World</main>
+      <main className="flex flex-col items-center py-5 px-12 m-0 min-h-screen font-serif">
+        <h1 className="text-3xl">國見峻史のホームページ</h1>
+        <br/>
+        <h2 className="italic text-blue-400">プロフィール</h2>
+        <div className="w-60">
+          <img src="IMG_2857.JPG" alt="國見峻史" />
+        </div>
+        <ul>
+          <li>2001年3月3日生まれ</li>
+          <li>うお座</li>
+          <li>体操部　得意種目：床、鉄棒</li>
+        </ul>
+        <div className="flex-col justify-center w-8/12">
+          <video src="678368670.672971.mp4" controls/>
+          <video src="678368670.834770.mp4" controls/>
+          <video src="678368670.947975.mp4" controls/>
+        </div>
+      </main>
     </div>
   );
 };
